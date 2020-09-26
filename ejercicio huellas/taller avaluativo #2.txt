@@ -1,0 +1,14 @@
+taller avaluativo profesor de algoritmos 
+pasos#
+1)calvin llama al profesor de algoritmos 
+2)tomar el curso basico programacion 
+3)el profesor le dice a calvin que se forme en 2 materias 
+4)tomar las materias de matematicas y algoritmos 
+5)los padres le advierten a calvin que si pierde las materias debe hcer planas 
+6)calvin se dedica a repasar en vez de ver la televison
+7)calvin se esfuerza en las 2 materias 
+8)calvin espera a sus padres 
+9)los padres llegan con las notas 
+10)si calvin gana las materias pudes seguir viendo sus caricaturas 
+11)si calvin pierde matematicas tendra que hacer planas de "DEBO REPASAR MATEMATICAS"
+12)si calvin pierde algoritmo tendra que hacer la planas de "DEBO ESTUDIAR ALGORITMOS"
