@@ -1,0 +1,302 @@
+
+C:\Users\Sebastian Roa>e:
+
+E:\>dir
+ El volumen de la unidad E no tiene etiqueta.
+ El número de serie del volumen es: 6621-EBFC
+
+ Directorio de E:\
+
+19/09/2020  02:50 p. m.    <DIR>          alice
+26/02/2020  10:02 p. m.         2.738.256 Battle.net.dll
+26/02/2020  10:30 p. m.    <DIR>          Cache
+04/04/2020  01:02 p. m.    <DIR>          Data
+26/02/2020  10:02 p. m.         1.213.200 dbghelp.dll
+26/02/2020  10:02 p. m.           413.696 divxdecoder.dll
+26/02/2020  10:07 p. m.    <DIR>          Errors
+26/02/2020  10:03 p. m.    <DIR>          Interface
+05/09/2020  02:16 p. m.    <DIR>          java
+30/08/2018  02:20 p. m.         6.624.569 KMSpico.v10.2.0.FINAL-heldigard.rar
+26/02/2020  10:13 p. m.    <DIR>          Logs
+26/02/2020  10:02 p. m.             1.870 Microsoft.VC80.CRT.manifest
+26/02/2020  10:02 p. m.            76.992 MovieProxy.exe
+26/02/2020  10:02 p. m.           632.656 msvcr80.dll
+29/08/2020  02:09 p. m.    <DIR>          prod2
+29/08/2020  02:31 p. m.    <DIR>          prog2
+26/02/2020  10:02 p. m.            49.924 Scan.dll
+26/02/2020  10:03 p. m.                 0 ToDownloadBase.db
+12/09/2020  03:14 p. m.    <DIR>          trabajo herramientas
+26/02/2020  10:02 p. m.    <DIR>          Updates
+26/02/2020  10:02 p. m.    <DIR>          Utils
+26/02/2020  10:03 p. m.        13.151.792 Wow.exe
+04/04/2020  01:02 p. m.               220 WoW.mfil
+26/02/2020  10:03 p. m.           416.909 WoW.pfil
+26/02/2020  10:03 p. m.         3.320.726 WoW.tfil
+26/02/2020  10:03 p. m.            88.256 WowError.exe
+26/02/2020  10:12 p. m.    <DIR>          WTF
+              14 archivos     28.729.066 bytes
+              13 dirs  556.343.939.072 bytes libres
+
+E:\>mkdir taller_evaluatico
+
+E:\>cd taller_evaluativo
+El sistema no puede encontrar la ruta especificada.
+
+E:\>cd taller_evaluatico
+
+E:\taller_evaluatico>certutil -hashfile taller_avaluativo#1.txt SHA256
+SHA256 hash de taller_avaluativo#1.txt:
+792c294304e08e89f35a0abfe2c8b91e22f8290e82681d3f348028ad798df2a5
+CertUtil: -hashfile comando completado correctamente.
+
+E:\taller_evaluatico>certutil -hashfile taller_avaluativo#2.txt SHA256
+SHA256 hash de taller_avaluativo#2.txt:
+9c48eb2382558c9f8cf35b4eca1cdfd436a4073848e0a8d3ba7cf3549be572d0
+CertUtil: -hashfile comando completado correctamente.
+
+E:\taller_evaluatico>certutil -hashfile taller_avaluativo#1.txt SHA256 | findstr /v hash
+792c294304e08e89f35a0abfe2c8b91e22f8290e82681d3f348028ad798df2a5
+
+E:\taller_evaluatico>certutil -hashfile taller_avaluativo#2.txt SHA256 | findstr /v hash
+9c48eb2382558c9f8cf35b4eca1cdfd436a4073848e0a8d3ba7cf3549be572d0
+
+E:\taller_evaluatico>certutil -hashfile taller_avaluativo#1.txt SHA256 | findstr /v hash > taller_avaluativo#1huella.txt
+
+E:\taller_evaluatico>certutil -hashfile taller_avaluativo#2.txt SHA256 | findstr /v hash > taller_avaluativo#2huella.txt
+
+E:\taller_evaluatico>dir
+ El volumen de la unidad E no tiene etiqueta.
+ El número de serie del volumen es: 6621-EBFC
+
+ Directorio de E:\taller_evaluatico
+
+19/09/2020  03:37 p. m.    <DIR>          .
+19/09/2020  03:37 p. m.    <DIR>          ..
+19/09/2020  02:19 p. m.               682 taller_avaluativo#1.txt
+19/09/2020  03:36 p. m.                66 taller_avaluativo#1huella.txt
+19/09/2020  02:47 p. m.               732 taller_avaluativo#2.txt
+19/09/2020  03:37 p. m.                66 taller_avaluativo#2huella.txt
+               4 archivos          1.546 bytes
+               2 dirs  556.343.934.976 bytes libres
+
+E:\taller_evaluatico>git --version
+git version 2.28.0.windows.1
+
+E:\taller_evaluatico>git config --global -1
+error: unknown switch `1'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+E:\taller_evaluatico>git config --global -1
+error: unknown switch `1'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+E:\taller_evaluatico>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+E:\taller_evaluatico>dir
+ El volumen de la unidad E no tiene etiqueta.
+ El número de serie del volumen es: 6621-EBFC
+
+ Directorio de E:\taller_evaluatico
+
+19/09/2020  03:37 p. m.    <DIR>          .
+19/09/2020  03:37 p. m.    <DIR>          ..
+19/09/2020  02:19 p. m.               682 taller_avaluativo#1.txt
+19/09/2020  03:36 p. m.                66 taller_avaluativo#1huella.txt
+19/09/2020  02:47 p. m.               732 taller_avaluativo#2.txt
+19/09/2020  03:37 p. m.                66 taller_avaluativo#2huella.txt
+               4 archivos          1.546 bytes
+               2 dirs  556.343.934.976 bytes libres
+
+E:\taller_evaluatico>git init
+Initialized empty Git repository in E:/taller_evaluatico/.git/
+
+E:\taller_evaluatico>git config --global user.juansebastianroa
+
+E:\taller_evaluatico>git config --global user."juansebastianroa"
+
+E:\taller_evaluatico>dir
+ El volumen de la unidad E no tiene etiqueta.
+ El número de serie del volumen es: 6621-EBFC
+
+ Directorio de E:\taller_evaluatico
+
+19/09/2020  03:49 p. m.    <DIR>          .
+19/09/2020  03:49 p. m.    <DIR>          ..
+19/09/2020  02:19 p. m.               682 taller_avaluativo#1.txt
+19/09/2020  03:36 p. m.                66 taller_avaluativo#1huella.txt
+19/09/2020  02:47 p. m.               732 taller_avaluativo#2.txt
+19/09/2020  03:37 p. m.                66 taller_avaluativo#2huella.txt
+               4 archivos          1.546 bytes
+               2 dirs  556.343.885.824 bytes libres
+
+E:\taller_evaluatico>git config --global user."sebas_6060@hotmail.com"
+
+E:\taller_evaluatico>dir
+ El volumen de la unidad E no tiene etiqueta.
+ El número de serie del volumen es: 6621-EBFC
+
+ Directorio de E:\taller_evaluatico
+
+19/09/2020  03:49 p. m.    <DIR>          .
+19/09/2020  03:49 p. m.    <DIR>          ..
+19/09/2020  02:19 p. m.               682 taller_avaluativo#1.txt
+19/09/2020  03:36 p. m.                66 taller_avaluativo#1huella.txt
+19/09/2020  02:47 p. m.               732 taller_avaluativo#2.txt
+19/09/2020  03:37 p. m.                66 taller_avaluativo#2huella.txt
+               4 archivos          1.546 bytes
+               2 dirs  556.343.885.824 bytes libres
+
+E:\taller_evaluatico>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        taller_avaluativo#1.txt
+        taller_avaluativo#1huella.txt
+        taller_avaluativo#2.txt
+        taller_avaluativo#2huella.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\taller_evaluatico>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+E:\taller_evaluatico>git add .
+
+E:\taller_evaluatico>git config core.autocrlf true
+
+E:\taller_evaluatico>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   taller_avaluativo#1.txt
+        new file:   taller_avaluativo#1huella.txt
+        new file:   taller_avaluativo#2.txt
+        new file:   taller_avaluativo#2huella.txt
+
+
+E:\taller_evaluatico>dir
+ El volumen de la unidad E no tiene etiqueta.
+ El número de serie del volumen es: 6621-EBFC
+
+ Directorio de E:\taller_evaluatico
+
+19/09/2020  03:49 p. m.    <DIR>          .
+19/09/2020  03:49 p. m.    <DIR>          ..
+19/09/2020  02:19 p. m.               682 taller_avaluativo#1.txt
+19/09/2020  03:36 p. m.                66 taller_avaluativo#1huella.txt
+19/09/2020  02:47 p. m.               732 taller_avaluativo#2.txt
+19/09/2020  03:37 p. m.                66 taller_avaluativo#2huella.txt
+               4 archivos          1.546 bytes
+               2 dirs  556.343.885.824 bytes libres
+
+E:\taller_evaluatico>git rm --cached *.png
+fatal: pathspec '*.png' did not match any files
+
+E:\taller_evaluatico>git commit -m "mi primer commit en GIT trabajoevaluativo"
+[master (root-commit) a1dccec] mi primer commit en GIT trabajoevaluativo
+ 4 files changed, 30 insertions(+)
+ create mode 100644 taller_avaluativo#1.txt
+ create mode 100644 taller_avaluativo#1huella.txt
+ create mode 100644 taller_avaluativo#2.txt
+ create mode 100644 taller_avaluativo#2huella.txt
+
+E:\taller_evaluatico>git log
+commit a1dccec17a62f752197c29016d2ce2242c03299c (HEAD -> master)
+Author: unknown <sebas_6060@hotmail.com>
+Date:   Sat Sep 19 16:05:25 2020 -0500
+
+    mi primer commit en GIT trabajoevaluativo
+
+E:\taller_evaluatico>
