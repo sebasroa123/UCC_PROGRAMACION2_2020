@@ -1,0 +1,339 @@
+Microsoft Windows [Versión 10.0.16299.125]
+(c) 2017 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Sebastian Roa>e:
+
+E:\>cd E:\trabajo herramientas
+
+E:\trabajo herramientas>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bootstrap_web_std/apple-touch-icon.png
+        bootstrap_web_std/css/
+        bootstrap_web_std/js/
+        bootstrap_web_std/tile-wide.png
+        bootstrap_web_std/tile.png
+        ejecicio en clase/
+        ejercicio huellas/
+        taller_evaluatico/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\trabajo herramientas>git add  taller_evaluatico
+
+E:\trabajo herramientas>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   taller_evaluatico/taller_avaluativo#1.txt
+        new file:   taller_evaluatico/taller_avaluativo#1huella.txt
+        new file:   taller_evaluatico/taller_avaluativo#2.txt
+        new file:   taller_evaluatico/taller_avaluativo#2huella.txt
+        new file:   taller_evaluatico/texto cmd.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bootstrap_web_std/apple-touch-icon.png
+        bootstrap_web_std/css/
+        bootstrap_web_std/js/
+        bootstrap_web_std/tile-wide.png
+        bootstrap_web_std/tile.png
+        ejecicio en clase/
+        ejercicio huellas/
+
+
+E:\trabajo herramientas>git commit -m "trabajo taller evaluativo"
+[master 933632d] trabajo taller evaluativo
+ 5 files changed, 332 insertions(+)
+ create mode 100644 taller_evaluatico/taller_avaluativo#1.txt
+ create mode 100644 taller_evaluatico/taller_avaluativo#1huella.txt
+ create mode 100644 taller_evaluatico/taller_avaluativo#2.txt
+ create mode 100644 taller_evaluatico/taller_avaluativo#2huella.txt
+ create mode 100644 taller_evaluatico/texto cmd.txt
+
+E:\trabajo herramientas>git add  ejercicio*
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/404.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/browserconfig.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/css/bootstrap-theme.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/css/bootstrap-theme.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/css/main.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/fonts/glyphicons-halflings-regular.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/js/main.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/js/vendor/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/js/vendor/bootstrap.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/js/vendor/jquery-1.11.2.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ejercicio huellas/initializr/js/vendor/npm.js.
+The file will have its original line endings in your working directory
+
+E:\trabajo herramientas>git commit -m "ejercicio huellas"
+[master e8f0efa] ejercicio huellas
+ 31 files changed, 9636 insertions(+)
+ create mode 100644 ejercicio huellas/huella_origen1.txt
+ create mode 100644 ejercicio huellas/huella_origen2.txt
+ create mode 100644 ejercicio huellas/initializr/404.html
+ create mode 100644 ejercicio huellas/initializr/apple-touch-icon.png
+ create mode 100644 ejercicio huellas/initializr/browserconfig.xml
+ create mode 100644 ejercicio huellas/initializr/css/bootstrap-theme.css
+ create mode 100644 ejercicio huellas/initializr/css/bootstrap-theme.css.map
+ create mode 100644 ejercicio huellas/initializr/css/bootstrap-theme.min.css
+ create mode 100644 ejercicio huellas/initializr/css/bootstrap.css
+ create mode 100644 ejercicio huellas/initializr/css/bootstrap.css.map
+ create mode 100644 ejercicio huellas/initializr/css/bootstrap.min.css
+ create mode 100644 ejercicio huellas/initializr/css/main.css
+ create mode 100644 ejercicio huellas/initializr/favicon.ico
+ create mode 100644 ejercicio huellas/initializr/fonts/glyphicons-halflings-regular.eot
+ create mode 100644 ejercicio huellas/initializr/fonts/glyphicons-halflings-regular.svg
+ create mode 100644 ejercicio huellas/initializr/fonts/glyphicons-halflings-regular.ttf
+ create mode 100644 ejercicio huellas/initializr/fonts/glyphicons-halflings-regular.woff
+ create mode 100644 ejercicio huellas/initializr/index.html
+ create mode 100644 ejercicio huellas/initializr/js/main.js
+ create mode 100644 ejercicio huellas/initializr/js/vendor/bootstrap.js
+ create mode 100644 ejercicio huellas/initializr/js/vendor/bootstrap.min.js
+ create mode 100644 ejercicio huellas/initializr/js/vendor/jquery-1.11.2.min.js
+ create mode 100644 ejercicio huellas/initializr/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js
+ create mode 100644 ejercicio huellas/initializr/js/vendor/npm.js
+ create mode 100644 ejercicio huellas/initializr/tile-wide.png
+ create mode 100644 ejercicio huellas/initializr/tile.png
+ create mode 100644 ejercicio huellas/roa1.txt
+ create mode 100644 ejercicio huellas/roa2.txt
+ create mode 100644 ejercicio huellas/roa3.txt
+ create mode 100644 ejercicio huellas/taller avaluativo #2.txt
+ create mode 100644 ejercicio huellas/taller avaluativo#1.txt
+
+E:\trabajo herramientas>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bootstrap_web_std/apple-touch-icon.png
+        bootstrap_web_std/css/
+        bootstrap_web_std/js/
+        bootstrap_web_std/tile-wide.png
+        bootstrap_web_std/tile.png
+        ejecicio en clase/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\trabajo herramientas>git add  "ejercicio en clase"
+fatal: pathspec 'ejercicio en clase' did not match any files
+
+E:\trabajo herramientas>git add  bootstrap_web_std
+warning: LF will be replaced by CRLF in bootstrap_web_std/css/bootstrap-theme.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_std/css/bootstrap-theme.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_std/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_std/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_std/css/main.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_std/js/main.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_std/js/vendor/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_std/js/vendor/bootstrap.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_std/js/vendor/jquery-1.11.2.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_std/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bootstrap_web_std/js/vendor/npm.js.
+The file will have its original line endings in your working directory
+
+E:\trabajo herramientas>git commit -m "versionamiento de sitio web"
+[master e3c1749] versionamiento de sitio web
+ 16 files changed, 9192 insertions(+)
+ create mode 100644 bootstrap_web_std/apple-touch-icon.png
+ create mode 100644 bootstrap_web_std/css/bootstrap-theme.css
+ create mode 100644 bootstrap_web_std/css/bootstrap-theme.css.map
+ create mode 100644 bootstrap_web_std/css/bootstrap-theme.min.css
+ create mode 100644 bootstrap_web_std/css/bootstrap.css
+ create mode 100644 bootstrap_web_std/css/bootstrap.css.map
+ create mode 100644 bootstrap_web_std/css/bootstrap.min.css
+ create mode 100644 bootstrap_web_std/css/main.css
+ create mode 100644 bootstrap_web_std/js/main.js
+ create mode 100644 bootstrap_web_std/js/vendor/bootstrap.js
+ create mode 100644 bootstrap_web_std/js/vendor/bootstrap.min.js
+ create mode 100644 bootstrap_web_std/js/vendor/jquery-1.11.2.min.js
+ create mode 100644 bootstrap_web_std/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js
+ create mode 100644 bootstrap_web_std/js/vendor/npm.js
+ create mode 100644 bootstrap_web_std/tile-wide.png
+ create mode 100644 bootstrap_web_std/tile.png
+
+E:\trabajo herramientas>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ejecicio en clase/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\trabajo herramientas>git add .
+
+E:\trabajo herramientas>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   ejecicio en clase/archivo_0
+        new file:   ejecicio en clase/archivo_01.txt
+
+
+E:\trabajo herramientas>git commit -m "ejercicio en clase archivo_0 y 01"
+[master b83d087] ejercicio en clase archivo_0 y 01
+ 2 files changed, 2 insertions(+)
+ create mode 100644 ejecicio en clase/archivo_0
+ create mode 100644 ejecicio en clase/archivo_01.txt
+
+E:\trabajo herramientas>git remote -v
+
+E:\trabajo herramientas>git remote add origin https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git
+
+E:\trabajo herramientas>git push origin master
+To https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\trabajo herramientas>git push origin master
+To https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\trabajo herramientas>git merge master
+Already up to date.
+
+E:\trabajo herramientas>git log
+commit b83d087629426ac214240de229d2d9af2b4a6432 (HEAD -> master)
+Author: unknown <sebas_6060@hotmail.com>
+Date:   Sat Sep 26 16:48:24 2020 -0500
+
+    ejercicio en clase archivo_0 y 01
+
+commit e3c1749d4fdbe27e5df6ca3b12338670372b31c0
+Author: unknown <sebas_6060@hotmail.com>
+Date:   Sat Sep 26 16:46:58 2020 -0500
+
+    versionamiento de sitio web
+
+commit e8f0efaa8d0ea014ab539c4376038b91bdc9e79e
+Author: unknown <sebas_6060@hotmail.com>
+Date:   Sat Sep 26 16:44:21 2020 -0500
+
+    ejercicio huellas
+
+commit 933632dd6444c715cba4e97f6f0ed5690d959adc
+Author: unknown <sebas_6060@hotmail.com>
+Date:   Sat Sep 26 16:43:05 2020 -0500
+
+    trabajo taller evaluativo
+
+commit 8e4987c4ed26cbe9cf2d858a89ae30b8da096fb7
+Author: unknown <sebas_6060@hotmail.com>
+Date:   Sat Sep 12 15:27:58 2020 -0500
+
+    mi primer commit en GIT para un proyecto web
+No next tag  (press RETURN)
+
+
+
+
+
+
+
+E:\trabajo herramientas>git pull --rebase origin
+warning: no common commits
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 879 bytes | 8.00 KiB/s, done.
+From https://github.com/sebasroa123/UCC_PROGRAMACION2_2020
+ * [new branch]      master     -> origin/master
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+
+E:\trabajo herramientas>git log
+commit b83d087629426ac214240de229d2d9af2b4a6432 (HEAD -> master)
+Author: unknown <sebas_6060@hotmail.com>
+Date:   Sat Sep 26 16:48:24 2020 -0500
+
+    ejercicio en clase archivo_0 y 01
+
+commit e3c1749d4fdbe27e5df6ca3b12338670372b31c0
+Author: unknown <sebas_6060@hotmail.com>
+Date:   Sat Sep 26 16:46:58 2020 -0500
+
+    versionamiento de sitio web
+
+commit e8f0efaa8d0ea014ab539c4376038b91bdc9e79e
+Author: unknown <sebas_6060@hotmail.com>
+Date:   Sat Sep 26 16:44:21 2020 -0500
+
+    ejercicio huellas
+
+commit 933632dd6444c715cba4e97f6f0ed5690d959adc
+Author: unknown <sebas_6060@hotmail.com>
+Date:   Sat Sep 26 16:43:05 2020 -0500
+
+    trabajo taller evaluativo
+
+commit 8e4987c4ed26cbe9cf2d858a89ae30b8da096fb7
+Author: unknown <sebas_6060@hotmail.com>
+Date:   Sat Sep 12 15:27:58 2020 -0500
+
+    mi primer commit en GIT para un proyecto web
+
+E:\trabajo herramientas>git push origin master
+To https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+E:\trabajo herramientas>git push origin master -- force
+error: src refspec force does not match any
+error: failed to push some refs to 'https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git'
+
+E:\trabajo herramientas>git push origin master --force
+Enumerating objects: 55, done.
+Counting objects: 100% (55/55), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (50/50), done.
+Writing objects: 100% (55/55), 279.51 KiB | 4.30 MiB/s, done.
+Total 55 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git
+ + 726c9bf...b83d087 master -> master (forced update)
+
+E:\trabajo herramientas>
