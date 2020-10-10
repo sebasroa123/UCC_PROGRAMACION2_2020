@@ -1,0 +1,91 @@
+Microsoft Windows [Versión 10.0.16299.125]
+(c) 2017 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Sebastian Roa>E:
+
+E:\>cd trabajo herramientas
+
+E:\trabajo herramientas>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        m1_entrenamiento/soporte imagen trabajo.docx
+        m1_entrenamiento/tarea_ejercicio_1.psc
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\trabajo herramientas>git add m1_entrenamiento
+
+E:\trabajo herramientas>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   m1_entrenamiento/soporte imagen trabajo.docx
+        new file:   m1_entrenamiento/tarea_ejercicio_1.psc
+
+
+E:\trabajo herramientas>git commit -m "m1_entrenamiento"
+[master 327ea9e] m1_entrenamiento
+ 2 files changed, 30 insertions(+)
+ create mode 100644 m1_entrenamiento/soporte imagen trabajo.docx
+ create mode 100644 m1_entrenamiento/tarea_ejercicio_1.psc
+
+E:\trabajo herramientas>git remote -v
+origin  https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git (fetch)
+origin  https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git (push)
+
+E:\trabajo herramientas>git remote origin master
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+E:\trabajo herramientas>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+E:\trabajo herramientas>git add ,
+fatal: pathspec ',' did not match any files
+
+E:\trabajo herramientas>git add .
+
+E:\trabajo herramientas>git status
+On branch master
+nothing to commit, working tree clean
+
+E:\trabajo herramientas>git remote add origin https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git
+fatal: remote origin already exists.
+
+E:\trabajo herramientas>git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 685.37 KiB | 12.93 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sebasroa123/UCC_PROGRAMACION2_2020.git
+   f5d626a..327ea9e  master -> master
+
+E:\trabajo herramientas>
