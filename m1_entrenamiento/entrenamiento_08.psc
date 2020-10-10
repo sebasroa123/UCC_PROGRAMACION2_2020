@@ -5,11 +5,11 @@ Algoritmo entrenamiento_08
 	b <- Verdadero
 	si n = 10 Entonces
 		b= Verdadero;
-		// el error es n es 10 es verdadero 
+		// el error es n no es 10 es falso 
 	
 	FinSi
 	Escribir "El valor de n es:" ,n;
-	Escribir "El valor de b es:" ,n;
+	Escribir "El valor de b es:" ,b;
 	
 	
 	
